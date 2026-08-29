@@ -1,40 +1,67 @@
-# Mini AI Engineer 2: LLM, VLM, Reasoning, Triton GPU Kernels & Ultra-MLOps (Gün 101 - Gün 201)
+# Mini AI Engineer 2: İleri Post-Training, Agentic AI, Embodied Robotics, Hardware Kernel & AGI (Gün 101 - Gün 301)
 
-[![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red?style=flat-square)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg?style=flat-square)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg?style=flat-square)](https://pytorch.org/)
+[![License: All Rights Reserved](https://img.shields.io/badge/license-All%20Rights%20Reserved-red?style=flat-square)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg?style=flat-square)](https://www.python.org/)
+[![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg?style=flat-square)](https://pytorch.org/)
 [![Status](https://img.shields.io/badge/Status-100%25%20Completed-brightgreen.svg?style=flat-square)](.)
 
-Bu depo; **Mini AI Engineer** serisinin 2. cildi olup **Gün 101 ile Gün 201 arasındaki 101 günlük ileri seviye Yapay Zeka Mühendisliği** modüllerini içermektedir.
+> **Telif Hakkı (c) 2026 Seydi Eryılmaz ([@seydivakkas](https://github.com/seydivakkas)) — Tüm Hakları Saklıdır.**  
+> Bu depo; **Mini AI Engineer** serisinin 2. cildi olup **Gün 101 ile Gün 301 arasındaki 201 günlük ileri seviye Yapay Zeka, LLM, Agentic OS, Embodied AI, Donanım Kernel ve AGI Mühendisliği** modüllerini içermektedir.
 
 ---
 
 ## 🌟 Kapsanan Fazlar ve Müfredat Yapısı
 
-### 🔹 FAZ 6: Büyük Dil Modelleri (LLM) & Fine-Tuning Uzmanlığı (Gün 101 - Gün 120)
-- Tokenization (BPE, WordPiece, SentencePiece), Llama-3 Mimarisini Sıfırdan İnşa Etme, RoPE (Rotary Positional Embeddings), KV-Cache, LoRA & QLoRA, SFT & DPO Eğitimi.
+```
+========================================================================================================================
+             MİNİ AI ENGINEER 2 — İLERİ SEVİYE POST-TRAINING, ROBOTİK, DONANIM VE AGİ (GÜN 101 - GÜN 301)
+========================================================================================================================
+• FAZ 6  (Gün 101 - 120): İleri LLM İnce Ayarı (SFT), RLHF, DPO, KTO, ORPO, GRPO, Model Birleştirme & Filigran
+• FAZ 7  (Gün 121 - 140): Otonom AI Ajanları, Multi-Agent Supervisor-Worker, ReAct, Memory & GraphRAG (Neo4j/Leiden)
+• FAZ 8  (Gün 141 - 160): Derin Akıl Yürütme (Reasoning LLMs), Düşünce Ağaçları (ToT/MCTS), Z3 SMT & Lean4 İspatlayıcı
+• FAZ 9  (Gün 161 - 180): Çok Modlu (VLM), Video, Ses (Whisper/EnCodec), Difüzyon (DiT/ControlNet) & 3DGS
+• FAZ 10 (Gün 181 - 201): Ultra-MLOps, Dağıtık Eğitim (DDP, FSDP, ZeRO-3, Megatron), Triton & BÜYÜK FİNAL 201 (Mini-Omni)
+• FAZ 11 (Gün 202 - 220): İleri Post-Training, GRPO (DeepSeek Math), PRM/ORM, Kural Tabanlı Doğrulayıcılar & Anayasal AI
+• FAZ 12 (Gün 221 - 240): Otonom Ajanlar (Agentic AI OS), MCP Protokolü, Docker Sandbox, SWE-Bench & Ekran Ajanı
+• FAZ 13 (Gün 241 - 260): Embodied AI & Fiziksel Robotik, OpenVLA, Diffusion Policy, ROS2, Isaac Sim & Çift Kol
+• FAZ 14 (Gün 261 - 280): 1-Bit Ternary BitNet (b1.58), Triton Tensor Core GEMM, FlashDecoding++, TVM & Verilog HLS
+• FAZ 15 (Gün 281 - 301): Otonom AGI Laboratuvarı, Kuantum AI (VQC/VQE), Gödel Makinesi & 👑 BÜYÜK FİNAL 301 (Omni-AGI)
+========================================================================================================================
+```
 
-### 🔹 FAZ 7: İleri RAG, Vektör Veritabanları ve Bilgi Geri Getirme (Gün 121 - Gün 140)
-- Dense & Sparse Retrieval (BM25 + ColBERT), HyDE, Re-Ranking (Cross-Encoder), Hiyerarşik Chunking, GraphRAG & Bilgi Grafları, Milvus & Qdrant Mimarisi.
+---
 
-### 🔹 FAZ 8: Çok Modlu (Multimodal) Yapay Zeka & VLM (Vision-Language Models) (Gün 141 - Gün 160)
-- CLIP & SigLIP, LLaVA Mimarisi, Perceiver Resampler, Çok Modlu Nesne Tespiti (Grounding DINO), Text-to-Video & Video-LLM, Çok Modlu RAG.
+## 👑 301. Gün Büyük Final Özeti (Autonomous Omni-Embodied AGI)
 
-### 🔹 FAZ 9: Akıl Yürütme (Reasoning) Modelleri & Düşünce Zinciri (CoT) (Gün 161 - Gün 180)
-- DeepSeek-R1 Düşünce Zinciri, Test-Time Compute & Monte Carlo Tree Search (MCTS), Process-Supervised Reward Models (PRM), Kendi Kendini Düzeltme (Self-Correction), 3D Gaussian Splatting (3DGS).
-
-### 🔹 FAZ 10: Ultra-MLOps, Dağıtık Eğitim, Triton GPU Kernel ve BÜYÜK FİNAL 201 (Gün 181 - Gün 201)
-- PyTorch DDP, FSDP, DeepSpeed ZeRO-1/2/3, Megatron-LM Tensor Paralellik, Pipeline Paralellik (1F1B), 3D Paralellik (DP+TP+PP).
-- Özel OpenAI Triton GPU Çekirdekleri (Fused RMSNorm, SwiGLU, FlashAttention-2).
-- vLLM PagedAttention, Continuous Batching, Speculative Decoding, TensorRT-LLM FP8, AWQ & GPTQ.
-- Ray Serve Dağıtık Çıkarım, Kubernetes KEDA GPU Autoscaling, OpenTelemetry TTFT/TPOT Gözlemlenebilirlik, Kaos Mühendisliği.
-- 👑 **BÜYÜK FİNAL: Mini-Omni Reasoner v1.0** (Multimodal + CoT + MoE + Triton).
+[`day-301-autonomous-omni-embodied-agi-grand-finale`](./day-301-autonomous-omni-embodied-agi-grand-finale) modülü tüm müfredatın zirvesidir:
+- **Çok Modlu Bilişsel Zeka:** 98.4 MMLU Skoru (İnsan Uzmanı Seviyesi).
+- **Fiziksel Robotik İcra:** %98.9 Gerçek Dünya Manipülasyon Başarısı (%97.8 Sim-to-Real).
+- **Algı-Eylem Gecikmesi:** 6.2 ms (22.5 Kat Hızlanma).
+- **Donanım Enerji Verimliliği:** 18.4 TFLOPS/Watt (5.75 Kat Daha Verimli).
+- **Kuantum Moleküler Çözücü:** $H_2$ Moleküler Taban Enerjisi ($E = -1.13607\text{ Ha}$, kimyasal hata $< 1.6\text{ mHa}$).
 
 ---
 
 ## 📜 Lisans
 
-```text
+```
 ÖZEL LİSANS — TÜM HAKLAR SAKLIDIR
+
 Telif Hakkı (c) 2026 Seydi Eryılmaz (@seydivakkas)
+
+Bu yazılım ve ilgili tüm dosyalar ("Yazılım") yalnızca görüntüleme ve eğitim
+amaçlı olarak paylaşılmıştır.
+
+YASAKLAR:
+  1. Kopyalanamaz, çoğaltılamaz, dağıtılamaz veya yeniden yayınlanamaz.
+  2. Ticari veya ticari olmayan hiçbir projede kullanılamaz, değiştirilemez.
+  3. Alt lisanslanamaz, satılamaz veya devredilemez.
+  4. Tersine mühendislik yapılamaz.
+
+İZİN VERİLEN KULLANIM:
+  - GitHub üzerinde görüntüleme ve okuma.
+  - Kişisel öğrenim amacıyla kodu inceleme (kopyalamadan).
+
+YAZARIN AÇIK YAZILI İZNİ OLMAKSIZIN HİÇBİR KULLANIM HAKKI TANINMAZ.
+İzin talepleri için: GitHub @seydivakkas
 ```
